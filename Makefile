@@ -1,6 +1,6 @@
 SHELL := bash
 
-PROG_NAME := serial-console
+PROG_NAME := serial-terminal
 
 INC_DIR := ./inc
 SRC_DIR := ./src
