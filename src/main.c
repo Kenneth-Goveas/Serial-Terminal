@@ -1,3 +1,12 @@
+/** @mainpage   Serial Terminal
+ *
+ *  @brief      Simple command line tool for communication over UART.
+ *
+ *  *Serial Terminal* is a simple command line tool for Linux, for communicating
+ *  with devices connected over a UART. Received data is printed on screen and
+ *  user input is transmitted to the connected device.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
