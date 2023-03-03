@@ -7,6 +7,7 @@
   <group>
     <detaileddescription title="Description"/>
     <memberdef>
+      <enums title="Enumerations">
       <functions title="Functions"/>
     </memberdef>
   </group>
