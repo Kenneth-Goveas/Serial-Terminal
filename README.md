@@ -29,7 +29,7 @@ input is transmitted to the connected device.
   ```
   make clean
   ```
-- If you wish to uninstall the program, run the command,
+- If you wish, you can easily uninstall the program:
   ```
   sudo make uninstall
   ```
@@ -41,9 +41,9 @@ The following command opens a serial connection with a connected device:
 serial-terminal <device> <baud>
 ```
 where `<device>` is the path to the serial port, and `<baud>` is the serial bit
-rate. For example, the command,
+rate. For example, the following command:
 ```
-serial-console /dev/ttyUSB0 115200
+serial-terminal /dev/ttyUSB0 115200
 ```
 opens a serial connection with the device `/dev/ttyUSB0` at `115200` baud. The
 program can be stopped at any point of time by pressing `Ctrl+C`.
