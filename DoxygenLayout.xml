@@ -1,0 +1,14 @@
+<doxygenlayout version="1.0">
+  <navindex>
+    <tab type="mainpage" visible="yes" title="Home"/>
+    <tab type="modules" visible="yes" title="Modules"
+         intro="The source code comprises of the following modules"/>
+  </navindex>
+  <group>
+    <detaileddescription title="Description"/>
+    <memberdef>
+      <enums title="Enumerations">
+      <functions title="Functions"/>
+    </memberdef>
+  </group>
+</doxygenlayout>
