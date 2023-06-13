@@ -20,7 +20,7 @@
  *  sleep_wait_for_wakeup_evt(). The relevant wakeup event structures can be
  *  obtained by calling console_get_wakeup_evt() and serial_get_wakeup_evt().
  *
- *  @param      evt Wakeup event to be registered.
+ *  @param      evt     Wakeup event to be registered.
  */
 
 void sleep_register_wakeup_evt (struct pollfd evt);
@@ -33,8 +33,8 @@ void sleep_register_wakeup_evt (struct pollfd evt);
  *  sleep_register_wakeup_evt() occur or if the program is interrupted by a
  *  `SIGINT` signal.
  *
- *  @retval     0   Success.
- *  @retval     -1  Failure. Error message is written to `stderr`.
+ *  @retval     0       Success.
+ *  @retval     -1      Failure. Error message is written to `stderr`.
  */
 
 int sleep_wait_for_wakeup_evt (void);
