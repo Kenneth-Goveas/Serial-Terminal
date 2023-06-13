@@ -99,7 +99,7 @@ int serial_open_port (const char * port, const char * baud) {
 
     // Get old serial port configuration.
     status = tcgetattr(_fd, &_cnf_old);
-    if (_fd < 0) {
+    if (status < 0) {
         // On error, close serial port and exit with failure.
         fprintf(
             stderr, "Failed to obtain serial port configuration (%s)\n",
